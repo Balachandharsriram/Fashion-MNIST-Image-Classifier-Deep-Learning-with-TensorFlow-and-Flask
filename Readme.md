@@ -1,28 +1,30 @@
-# Fashion MNIST Web App
+# 🧥 Fashion MNIST Image Classifier — Deep Learning with TensorFlow & Flask
 
-This is a simple Flask web application that uses a trained CNN model on Fashion MNIST dataset to predict clothing categories.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange.svg" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Flask-2.x-lightgrey.svg" alt="Flask">
+</p>
 
-## Features
-- Upload an image of clothing (28x28 grayscale).
-- Model predicts one of the 10 classes (T-shirt/top, Trouser, Pullover, etc).
+---
 
-## How to Run
-1. Clone this repo and navigate to the folder.
-2. Install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-3. Start the Flask server:
-    ```
-    python app.py
-    ```
-4. Open your browser and go to `http://127.0.0.1:5000/`.
+## 🚀 Overview
 
-## Files
-- `app.py`: Flask backend
-- `Fashion_mnist.hdf5`: Pre-trained model
-- `templates/index.html`: Upload page
-- `templates/result.html`: Result page
+This project is a **web-based deep learning application** that classifies images from the Fashion MNIST dataset.  
+It uses a **Convolutional Neural Network (CNN)** trained with TensorFlow & Keras, and serves predictions through a **Flask web interface**.
 
-## Author
-- ❤️ Built by Balachandharsriram.M as a beginner full stack project.
+Upload an image, and the app predicts which fashion item it is (e.g., **Sneaker, Dress, Coat, etc.**).
+
+---
+
+## 🛠 Tech Stack
+
+- 🐍 **Python 3.10**
+- 🧠 **TensorFlow / Keras** for the deep learning model
+- 🌐 **Flask** for serving the web app
+- 🎨 HTML & CSS for simple, modern UI
+
+---
+
+## 📂 Project Structure
+
