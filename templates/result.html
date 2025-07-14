@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            background: #e9f0f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .result-card {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #0077ff;
+            margin-bottom: 30px;
+        }
+        a {
+            text-decoration: none;
+            padding: 12px 25px;
+            background: #0077ff;
+            color: white;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #005fcc;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-card">
+        <h1>Prediction Result</h1>
+        <h2>The image is predicted as: {{ prediction }}</h2>
+        <a href="/">Try Another Image</a>
+    </div>
+</body>
+</html>
