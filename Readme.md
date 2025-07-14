@@ -25,6 +25,3 @@ Upload an image, and the app predicts which fashion item it is (e.g., **Sneaker,
 - 🎨 HTML & CSS for simple, modern UI
 
 ---
-
-## 📂 Project Structure
-
